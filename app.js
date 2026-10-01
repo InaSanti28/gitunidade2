@@ -5,7 +5,7 @@ const elDecrement = document.getElementById("btn-decrement");
 const elToggleTheme = document.getElementById("btn-toggle-theme");
 const elTitle = document.getElementById("title");
 
-function setCount(newValue) {
+function updateCount(newValue) {
   elCount.textContent = String(newValue);
 }
 
