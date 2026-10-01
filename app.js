@@ -28,6 +28,6 @@ elToggleTheme.addEventListener("click", () => {
   root.setProperty("--text", state.dark ? "#e2e8f0" : "#0f172a");
   root.setProperty("--card", state.dark ? "#1e293b" : "#ffffff");
   root.setProperty("--border", state.dark ? "#334155" : "#e5e7eb");
-  elTitle.textContent = "Mini App – Modo Escuro";
+  elTitle.textContent = state.dark ? "Mini App – Modo Escuro" : "Mini App – GitFlow";
   elToggleTheme.setAttribute("aria-pressed", String(state.dark));
 });
